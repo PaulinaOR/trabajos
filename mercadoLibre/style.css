@@ -1,18 +1,16 @@
 .main-header-top>* {
     display: flex;
-    flex: 1;
     align-items: center;
     background-color: #fff159;
 }
 .main-header-top-search{
     justify-content: center;
+    border: rgb(211, 211, 211);
 }
 
 .main-header-top-search input{
     width: 50%;
-    height: 55%;
-    border-radius: 3px;
-    border: none;
+    height: 30px;
 }
 
 .main-header-bottom{
@@ -123,6 +121,7 @@
     font-size: 14px;
     margin-top: -1px;
     text-align: space-between ;
+    display: inline-block;
 }
 .anuncio{
     background: rgb(236, 234, 234);
@@ -205,7 +204,8 @@ div i{
 }
 .anuncio-posicion2{
     color: blue;
-    box-shadow: 0 -1px 30px 0 rgba(0,0,0,.2), 0 2px 3px 0 rgba(0,0,0,.1);
+    border: none;
+    background-color: white;
 }
 .img{
     min-width: 580px;
